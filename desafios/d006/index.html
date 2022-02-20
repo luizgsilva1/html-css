@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagem Responsiva</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Imagem Responsiva</h1>
+    <p>Diminua a largura da tela para ver a imagem se adaptando</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png">
+        <source media="(max-width: 1210px)" srcset="imagens/paisagem-m.png">
+        <img src="imagens/paisagem-g.png" alt="Imagem de paisagem grande">
+    </picture>
+</body>
+</html>

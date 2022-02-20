@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-image: linear-gradient(to top,#1A5C38, #217446, #33B66E, #3BD37F);
+    height: 255px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+}
+header > h1 {
+    text-transform: uppercase;
+    padding-top: 43px;
+    font-size: 40px;
+}
+
+header > h2 {
+    max-width: 700px;
+    margin: auto;
+    padding-top: 33px;
+    font-weight: normal;
+    font-size: 22px;
+}
+
+nav {
+    text-align: left;
+    background-color: #1A5C38;
+    height: 35px;
+    
+}
